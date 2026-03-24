@@ -101,6 +101,11 @@ img {
   text-decoration: underline;
 }
 
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .hero {
   padding: 4rem 0 2rem;
 }
@@ -157,6 +162,16 @@ img {
 .section-list {
   margin: 0;
   padding-left: 1.1rem;
+}
+
+.compact-list {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.compact-list li {
+  max-width: var(--measure);
+  margin-bottom: 0.85rem;
 }
 
 .article {

@@ -31,7 +31,7 @@ jobs:
       - name: Stage static site
         run: |
           mkdir _site
-          cp index.html _site/index.html
+          cp *.html _site/
           cp -r assets _site/assets
 
       - name: Upload site artifact

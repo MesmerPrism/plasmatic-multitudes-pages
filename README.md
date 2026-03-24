@@ -13,6 +13,7 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 ## Structure
 
 - `index.html`: the published essay
+- `project.html`: compact public project framing
 - `assets/site.css`: longform site styles
 - `.github/workflows/deploy-pages.yml`: GitHub Pages deployment workflow
 - `scripts/sync-overview.ps1`: helper that copies the current private working draft into `tmp/` for local comparison
