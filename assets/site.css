@@ -6,8 +6,8 @@
   --ink-soft: #2f2a27;
   --ink-muted: rgba(18, 16, 15, 0.68);
   --ink-faint: rgba(18, 16, 15, 0.18);
-  --max-width: 77rem;
-  --measure: 67ch;
+  --max-width: 82rem;
+  --measure: 74ch;
 }
 
 *,
@@ -29,7 +29,7 @@ body {
     radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.62), transparent 28rem),
     linear-gradient(180deg, var(--paper) 0%, #f9f5ee 100%);
   font-family: "Newsreader", Georgia, serif;
-  font-size: 1.06rem;
+  font-size: 1.09rem;
   line-height: 1.76;
   text-rendering: optimizeLegibility;
 }
@@ -162,11 +162,11 @@ main.shell {
 
 .intro-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(15rem, 1fr);
-  gap: 2.4rem;
+  grid-template-columns: minmax(0, 1.5fr) minmax(17rem, 1fr);
+  gap: 2.8rem;
   align-items: start;
   width: 100%;
-  max-width: 72rem;
+  max-width: 76rem;
   margin: 3rem auto 0;
 }
 
@@ -184,7 +184,7 @@ main.shell {
 
 .panel p,
 .panel li {
-  max-width: 44ch;
+  max-width: 47ch;
 }
 
 .section-list,
@@ -204,7 +204,7 @@ main.shell {
 
 .article section {
   width: 100%;
-  max-width: calc(var(--measure) + 6rem);
+  max-width: calc(var(--measure) + 8rem);
   margin: 0 auto;
   padding-top: 3.6rem;
 }
@@ -240,7 +240,7 @@ main.shell {
 .references p {
   max-width: var(--measure);
   margin: 0 0 1rem;
-  font-size: 1.08rem;
+  font-size: 1.14rem;
 }
 
 .article ul,
@@ -270,7 +270,7 @@ main.shell {
 }
 
 .references-list {
-  width: min(100%, calc(var(--measure) + 8rem));
+  width: min(100%, calc(var(--measure) + 10rem));
   margin: 1.3rem auto 0;
   padding: 0;
   list-style: none;
@@ -279,7 +279,7 @@ main.shell {
 
 .references-list li {
   position: relative;
-  max-width: 78ch;
+  max-width: 84ch;
   margin: 0 0 1.35rem;
   padding-left: 2.35rem;
 }
@@ -372,7 +372,7 @@ main.shell {
   .article ul,
   .article ol,
   .references p {
-    font-size: 1.03rem;
+    font-size: 1.06rem;
   }
 
   .references-list li {
