@@ -1,6 +1,6 @@
 # Plasmatic Multitudes Pages
 
-Public-facing GitHub Pages site for the `Plasmatic Multitudes` writing and research pages.
+Public-facing GitHub Pages site for essays and references on weakly bounded bodies, semi-corporeal avatars, and related XR and media-theory work.
 
 Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerprism.github.io/plasmatic-multitudes-pages/)
 
@@ -8,8 +8,7 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 
 - Publishes a readable web edition of the main overview text.
 - Publishes compact companion essays for adjacent tracks.
-- Maintains a shared references library so essays can cite a central, organized bibliography.
-- Keeps the public site separate from the private working archive and local source PDFs.
+- Maintains a references page with organized source links.
 - Links outward to DOI, publisher, arXiv, and catalog pages instead of mirroring PDF files.
 
 ## Structure
@@ -22,7 +21,6 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 - `assets/site.css`: longform site styles
 - `assets/calligraphy-reference-pack/`: museum-backed styling references, derivative crops, and palette notes for future visual work
 - `.github/workflows/deploy-pages.yml`: GitHub Pages deployment workflow
-- `scripts/sync-overview.ps1`: helper that copies the current private working draft into `tmp/` for local comparison
 - `scripts/build-calligraphy-reference-pack.ps1`: rebuilds the curated calligraphy reference pack from official museum image URLs
 
 ## Visual direction
@@ -42,13 +40,3 @@ Then open `http://127.0.0.1:4173/`.
 ## GitHub Pages
 
 This repository deploys through the GitHub Actions Pages flow. Pushes to `main` trigger `.github/workflows/deploy-pages.yml`, which stages the static site and publishes it to the live URL above.
-
-## Updating from the working repo
-
-The authoritative draft still lives in the private working repository. To copy that source draft into local scratch space for editorial comparison:
-
-```powershell
-.\scripts\sync-overview.ps1
-```
-
-That command copies the current overview markdown into `tmp/working-overview.md`. The public page in `index.html` remains curated by hand so citations, links, and public-facing wording stay clean.
