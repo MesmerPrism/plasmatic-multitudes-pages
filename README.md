@@ -2,6 +2,8 @@
 
 Public-facing GitHub Pages site for the `Plasmatic Multitudes` overview essay.
 
+Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerprism.github.io/plasmatic-multitudes-pages/)
+
 ## What this repo does
 
 - Publishes a readable web edition of the main overview text.
@@ -27,11 +29,7 @@ Then open `http://127.0.0.1:4173/`.
 
 ## GitHub Pages
 
-This repo is configured for the GitHub Actions Pages flow. After pushing to `main`:
-
-1. Enable GitHub Pages in the repository settings.
-2. Set the source to `GitHub Actions`.
-3. The workflow in `.github/workflows/deploy-pages.yml` will publish the site.
+This repository deploys through the GitHub Actions Pages flow. Pushes to `main` trigger `.github/workflows/deploy-pages.yml`, which stages the static site and publishes it to the live URL above.
 
 ## Updating from the working repo
 
