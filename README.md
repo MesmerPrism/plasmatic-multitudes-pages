@@ -1,12 +1,14 @@
 # Plasmatic Multitudes Pages
 
-Public-facing GitHub Pages site for the `Plasmatic Multitudes` overview essay.
+Public-facing GitHub Pages site for the `Plasmatic Multitudes` writing and research pages.
 
 Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerprism.github.io/plasmatic-multitudes-pages/)
 
 ## What this repo does
 
 - Publishes a readable web edition of the main overview text.
+- Publishes compact public framing pages for adjacent project tracks.
+- Maintains a shared references library so essays can cite a central, organized bibliography.
 - Keeps the public site separate from the private working archive and local source PDFs.
 - Links outward to DOI, publisher, arXiv, and catalog pages instead of mirroring PDF files.
 
@@ -14,6 +16,8 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 
 - `index.html`: the published essay
 - `project.html`: compact public project framing
+- `pain.html`: public pain-treatment research framing
+- `references.html`: shared references library
 - `assets/site.css`: longform site styles
 - `.github/workflows/deploy-pages.yml`: GitHub Pages deployment workflow
 - `scripts/sync-overview.ps1`: helper that copies the current private working draft into `tmp/` for local comparison

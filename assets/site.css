@@ -254,6 +254,12 @@ img {
   padding-left: 0.35rem;
 }
 
+.ref-note {
+  margin: 0.45rem 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
 .source-link {
   display: inline-block;
   margin-left: 0.35rem;
