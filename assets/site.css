@@ -29,7 +29,7 @@ body {
     radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.62), transparent 28rem),
     linear-gradient(180deg, var(--paper) 0%, #f9f5ee 100%);
   font-family: "Newsreader", Georgia, serif;
-  font-size: 1.05rem;
+  font-size: 1.06rem;
   line-height: 1.76;
   text-rendering: optimizeLegibility;
 }
@@ -165,7 +165,9 @@ main.shell {
   grid-template-columns: minmax(0, 1.4fr) minmax(15rem, 1fr);
   gap: 2.4rem;
   align-items: start;
-  margin-top: 3rem;
+  width: 100%;
+  max-width: 72rem;
+  margin: 3rem auto 0;
 }
 
 .panel {
@@ -201,7 +203,20 @@ main.shell {
 }
 
 .article section {
+  width: 100%;
+  max-width: calc(var(--measure) + 6rem);
+  margin: 0 auto;
   padding-top: 3.6rem;
+}
+
+.article section > h2,
+.article section > h3,
+.article section > p,
+.article section > ul,
+.article section > ol {
+  width: min(100%, var(--measure));
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article h2,
@@ -225,6 +240,7 @@ main.shell {
 .references p {
   max-width: var(--measure);
   margin: 0 0 1rem;
+  font-size: 1.08rem;
 }
 
 .article ul,
@@ -254,7 +270,8 @@ main.shell {
 }
 
 .references-list {
-  margin: 1.3rem 0 0;
+  width: min(100%, calc(var(--measure) + 8rem));
+  margin: 1.3rem auto 0;
   padding: 0;
   list-style: none;
   counter-reset: reference;
@@ -355,7 +372,7 @@ main.shell {
   .article ul,
   .article ol,
   .references p {
-    font-size: 1rem;
+    font-size: 1.03rem;
   }
 
   .references-list li {

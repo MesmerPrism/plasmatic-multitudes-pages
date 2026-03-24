@@ -7,8 +7,8 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 ## What this repo does
 
 - Publishes a readable web edition of the main overview text.
+- Publishes a thematic guide that synthesizes the research field for new readers.
 - Publishes compact public framing pages for adjacent project tracks.
-- Publishes an archive map so the private collection structure is legible without exposing local source files.
 - Maintains a shared references library so essays can cite a central, organized bibliography.
 - Keeps the public site separate from the private working archive and local source PDFs.
 - Links outward to DOI, publisher, arXiv, and catalog pages instead of mirroring PDF files.
@@ -16,9 +16,9 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 ## Structure
 
 - `index.html`: the published essay
+- `archive.html`: public research guide and thematic reading route
 - `project.html`: compact public project framing
 - `pain.html`: public pain-treatment research framing
-- `archive.html`: public collection map of the private research archive
 - `references.html`: shared references library
 - `assets/site.css`: longform site styles
 - `assets/calligraphy-reference-pack/`: museum-backed styling references, derivative crops, and palette notes for future visual work
