@@ -21,8 +21,10 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 - `archive.html`: public collection map of the private research archive
 - `references.html`: shared references library
 - `assets/site.css`: longform site styles
+- `assets/calligraphy-reference-pack/`: museum-backed styling references, derivative crops, and palette notes for future visual work
 - `.github/workflows/deploy-pages.yml`: GitHub Pages deployment workflow
 - `scripts/sync-overview.ps1`: helper that copies the current private working draft into `tmp/` for local comparison
+- `scripts/build-calligraphy-reference-pack.ps1`: rebuilds the curated calligraphy reference pack from official museum image URLs
 
 ## Visual direction
 
