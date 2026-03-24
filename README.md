@@ -8,6 +8,7 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 
 - Publishes a readable web edition of the main overview text.
 - Publishes compact companion essays for adjacent tracks.
+- Publishes a terminology guide that maps shared vocabulary across media theory, XR, perception, and pain translation.
 - Maintains a references page with organized source links.
 - Links outward to DOI, publisher, arXiv, and catalog pages instead of mirroring PDF files.
 
@@ -17,6 +18,7 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 - `archive.html`: redirect from the retired guide URL to the overview
 - `project.html`: compact public project framing
 - `pain.html`: public pain-treatment research framing
+- `terminology.html`: public terminology guide and glossary
 - `references.html`: shared references library
 - `assets/site.css`: longform site styles
 - `assets/calligraphy-reference-pack/`: museum-backed styling references, derivative crops, and palette notes for future visual work
