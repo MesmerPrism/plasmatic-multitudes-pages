@@ -24,6 +24,10 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 - `.github/workflows/deploy-pages.yml`: GitHub Pages deployment workflow
 - `scripts/sync-overview.ps1`: helper that copies the current private working draft into `tmp/` for local comparison
 
+## Visual direction
+
+The current theme uses a custom ink-on-paper system influenced by public-domain calligraphy reference collections from the [Cleveland Museum of Art](https://openaccess-api.clevelandart.org/), [The Met](https://metmuseum.github.io/), and the [Smithsonian / National Museum of Asian Art](https://www.si.edu/openaccess/devtools). The shipped visuals are custom SVG brush textures and CSS paper treatments rather than downloaded collection images.
+
 ## Local preview
 
 From the repo root:
