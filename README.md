@@ -7,19 +7,19 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 ## What this repo does
 
 - Publishes a readable web edition of the main overview text.
-- Publishes compact companion essays for adjacent tracks.
-- Publishes a terminology guide that maps shared vocabulary across media theory, XR, perception, and pain translation.
-- Maintains a references page with organized source links.
+- Publishes compact companion essays for adjacent tracks and method framing.
+- Publishes a vocabulary guide that maps shared terms across somaesthetics, media theory, XR, perception, and pain translation.
+- Maintains a sources page with organized topic-based links.
 - Links outward to DOI, publisher, arXiv, and catalog pages instead of mirroring PDF files.
 
 ## Structure
 
 - `index.html`: the published essay
 - `archive.html`: redirect from the retired guide URL to the overview
-- `project.html`: compact public project framing
+- `project.html`: compact public method framing
 - `pain.html`: public pain-treatment research framing
-- `terminology.html`: public terminology guide and glossary
-- `references.html`: shared references library
+- `terminology.html`: public vocabulary guide and glossary
+- `references.html`: shared sources library
 - `assets/site.css`: longform site styles
 - `assets/calligraphy-reference-pack/`: museum-backed styling references, derivative crops, and palette notes for future visual work
 - `.github/workflows/deploy-pages.yml`: GitHub Pages deployment workflow
