@@ -33,6 +33,7 @@ jobs:
           mkdir _site
           cp *.html _site/
           cp -r assets _site/assets
+          if [ -d background ]; then cp -r background _site/background; fi
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
