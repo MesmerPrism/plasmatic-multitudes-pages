@@ -20,6 +20,7 @@ Live site: [mesmerprism.github.io/plasmatic-multitudes-pages](https://mesmerpris
 - `pain.html`: public pain-treatment research framing
 - `terminology.html`: public vocabulary guide and glossary
 - `references.html`: shared sources library
+- `background/somaesthetics.html`: short public note on somaesthetics as the site's method anchor
 - `assets/site.css`: longform site styles
 - `assets/calligraphy-reference-pack/`: museum-backed styling references, derivative crops, and palette notes for future visual work
 - `.github/workflows/deploy-pages.yml`: GitHub Pages deployment workflow
